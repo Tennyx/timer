@@ -1,0 +1,29 @@
+{% extends "../home/base.html" %}
+{% block title %}
+Timer
+{% endblock %}
+
+{% block header %}
+<script src="/static/js/timer.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/timer.css">
+{% endblock %}
+
+{% block content %}
+<div id="title" class="text-center">simple<span id="timer">timer</span></div>
+	
+<div id="time">00:25:00</div>
+
+<div class="text-center" id="btnholder">
+  <button id="start" class="btn btn-info"><i class="fa fa-clock-o"></i> START</button>
+  <button id="stop" class="btn btn-info"><i class="fa fa-pause"></i> PAUSE</button>
+  <button id="reset" class="btn btn-info"><i class="fa fa-undo"></i> RESET</button>
+</div>
+
+<p id="disclaimer" class="text-center">(Click time to change value)</p>
+
+<div class="text-center">
+	<a href="#"><i class="fa fa-github fontlink-dark" aria-hidden="true"></i></a>
+	<p class="text-center" style="font-family: Montserrat">This project was written in jQuery. Click for github code.</p>
+</div>
+{% endblock %}

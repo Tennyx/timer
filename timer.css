@@ -1,0 +1,53 @@
+body {
+  font-family: 'Teko', sans-serif;
+  background: #606060;
+  color: white;
+}
+
+#time {
+  font-size: 150px;
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  margin-bottom: -28px;
+}
+
+#edit {
+  padding-top:25px;
+  font-size: 150px;
+  width:420px;
+  height:140px;
+  display: block;
+  margin : 0 auto;
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  margin-top:28.5px;
+  margin-bottom: 28.26px;
+}
+
+#title {
+  padding-top:10px;
+  margin-bottom: -30px;
+  font-size: 60px;
+  color:white;
+}
+
+#disclaimer {
+  font-family: arial;
+  margin-top:25px;
+}
+
+.btn-info {
+  background: #606060;
+  border-color: #B2E845;
+  color:#B2E845;
+}
+
+.btn-info:hover {
+  background: #B2E845;
+  border-color: #B2E845;
+  color: #606060;
+}
+
+#timer {
+  color: #B2E845;
+}
